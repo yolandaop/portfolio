@@ -26,9 +26,12 @@ nav{
 }
 h1{
     font-size: 5vw;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 10px;
 }
 h3{
-    font-size: 2vw;
+    font-size: 3vw;
+    font-family: 'Cookie', cursive;
 }
 .left{
     display: flex;
