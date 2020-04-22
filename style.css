@@ -1,0 +1,42 @@
+
+@media screen and (min-width: 1200px) {
+    header {
+        height: 750px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    header {
+        height: 500px;
+        background-position: center;
+    }
+  }
+  
+  header{
+    background-image: url(header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 5vw;
+}
+h3{
+    font-size: 2vw;
+}
+.left{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+.nama{
+    margin-top: 5em;
+    margin-left: 5em;
+}
