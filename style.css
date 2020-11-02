@@ -1,79 +1,77 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
 header{
     background-image: url(header.png);
     color: whitesmoke;
     height: 5em;    
 }
-
-nav{
-    position: fixed;
-    display: flex;
+body{
+    margin:0;
+    padding: 0;    
+}
+.preload{
     width: 100%;
-    justify-content: space-between;
-}
-.left{
-    display: flex;
-    width: 40%;
-    justify-content: space-evenly;
-}
-.page1{
-    color: whitesmoke;
-    background-image: url(header.png);
-    background-size: cover;
-}
-h1{
-    margin-top: 0;
-    padding-top: 1em;
-    font-size: 6vw;
-    font-family: 'Archivo Black', sans-serif;
-    letter-spacing: 3px;
-}
-h2{
-    margin-top: -30px;
-    font-size: 5vw;
-    font-family: 'Archivo Black', sans-serif;
-    letter-spacing: 3px;
-}
-h3{
-    margin-top: -30px;
-    font-size: 1vw;
-    letter-spacing: 1px;
-}
-
-.nama{
-    margin-left: 18em;
-    padding-bottom: 20em;
-}
-.socmed{
+    height: 100%;
+    background: rgb(26, 26, 26);
     position: fixed;
-    top: 40%;
-    left: 3%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.ml5 {
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-weight: 400;
+    font-size: 3em;
+    color:white;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 10em;
-}
-.satu{
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1.2em;
+  }
+  
+  .ml5 .line {
     position: absolute;
-    right: 5%;
-    top: 30%;
-    color: gold;
-    font-size: 2vw;
-    font-family: 'Archivo Black', sans-serif;
-}
-.tex{
-    position: absolute;
-    right: 4.6%;
-    top: 37%;
-    color: white;
-    font-family: 'Archivo Black', sans-serif;
-    writing-mode: tb-rl;
-}
-.text{
-    position: absolute;
-    right: 5%;
-    top: 43%;
-    color:grey;
-    font-family: 'Archivo Black', sans-serif;
-    writing-mode: tb-rl;
-    letter-spacing: 4px;
-}
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color:white;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .hello {
+
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    font-size: 1.3em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
